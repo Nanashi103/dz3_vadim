@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+* {
+  color: #ffffff; /*????*/
+}
+
+html {
+  font-family: "Mont", sans-serif;
+}
+
+.container {
+  max-width: 1430px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.top .container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.fs {
+  background-image: url("./imgs/back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+}
+
+.header__logo {
+  margin-top: 44px;
+  margin-right: 77px;
+}
+
+.header__nav {
+  margin-top: 68px;
+}
+
+.menu__bar {
+  margin-right: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 96.4%;
+  color: #ffffff;
+}
+
+.menu__bar:hover {
+  font-weight: 800;
+  color: #e4a16f;
+  text-decoration-line: underline;
+}
+
+.fs__content {
+  padding-bottom: 225px;
+}
+
+.fs__title {
+  margin: 145px 0 50px 0;
+  font-family: "Lighthaus", sans-serif;
+
+  font-size: 100px;
+  line-height: 74.9%;
+}
+
+.fs__line__gridient {
+  /*?????????*/
+  max-width: 623px;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 1) -0.02%, rgba(255, 255, 255, 0) 100.02%);
+  margin-bottom: 50px;
+}
+
+.fs__text {
+  max-width: 533px;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 96.4%;
+}
+
+.fs__price {
+  margin: 40px 0 41px 0;
+}
+
+.fs__cost {
+  font-size: 30px;
+  line-height: 96.4%;
+  margin-right: 109px;
+}
+
+.fs__grn {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 96.4%;
+}
+
+.btn {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 96.4%;
+  padding: 16px 131px 17px 132px;
+  background: #e4a16f;
+}
+
+.fs__name {
+  position: absolute;
+  font-family: "Lighthaus", sans-serif;
+  max-width: 686px;
+  font-size: 160px;
+  line-height: 74.9%;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  text-align: right;
+}
+
+.fs__bg {
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  margin-top: -76px;
+  margin-right: -555px;
+  margin-bottom: -368px;
+  height: 1344px;
+  width: 1344px;
+}
+
+.fs__kolb {
+  position: absolute;
+  left: 50%;
+  top: 75px;
+  z-index: 3;
+}

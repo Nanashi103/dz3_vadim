@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "Mont";
+    src: url("Mont-Black.eot");
+    src: local("Mont Black"), local("Mont-Black"), url("Mont-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url("Mont-Heavy.eot");
+    src: local("Mont Heavy"), local("Mont-Heavy"), url("Mont-Heavy.woff") format("woff");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url("Mont-SemiBold.eot");
+    src: local("Mont SemiBold"), local("Mont-SemiBold"), url("Mont-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Mont";
+    src: url("Mont-Regular.eot");
+    src: local("Mont Regular"), local("Mont-Regular"), url("Mont-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
